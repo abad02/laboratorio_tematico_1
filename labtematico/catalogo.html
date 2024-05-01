@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Venta de Automóviles</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #494343;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            grid-gap: 20px;
+        }
+        .car {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+        }
+        .car img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        .car h2 {
+            margin-top: 10px;
+            font-size: 20px;
+        }
+        .car p {
+            margin-top: 5px;
+            font-size: 16px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Catálogo de  Automoviles</h1>
+    </header>
+    
+    <div class="container">
+        <div class="car">
+            <img src="/images/007.jpg" alt="Carro 1">
+            <h2>Aston Marton DB5 </h2>
+            <p>Precio: $30,000 <img src="/images/logo-aston.png" alt=""  width="200" height="200" align="right"></p>
+            <p>Año: 1977 </p>
+            <p>Color: Gris</p>
+        </div>
+        
+        <div class="car">
+            <img src="images/escala.jpg" alt="Carro 2">
+            <h2>Nissan Skyline GT-R R34</h2>
+            <p>Precio: $25,000 <img src="/images/Nissan_Skyline_GTR-removebg-preview.png" alt=""  width="120" height="120" align="right"></p>
+            <p>Año:  1999</p>
+            <p>Color: Gris y Azul</p>
+        </div>
+        
+        <div class="car">
+            <img src="/images/batman.jpg" alt="Carro 3">
+            <h2>Batimovil</h2>
+            <p>Precio: $35,000 <img src="/images/batman-logo.png" alt=""  width="200" height="200" align="right"></p>
+            <p>Año: 2000</p>
+            <p>Color: Negro</p>
+        </div>
+        
+        <div class="car">
+            <img src="/images/herbi.jpg" alt="Carro 4">
+            <h2>Volkswagen Beetle</h2>
+            <p>Precio: $35,000 <img src="/images/vochol.png" alt=""  width="100" height="100" align="right"></p>
+            <p>Año: 1963</p>
+            <p>Color: Blanco</p>
+        </div>
+        
+        <div class="car">
+            <img src="/images/delorean.jpg" alt="Carro 5">
+            <h2>DeLorean DMC-12</h2>
+             <p>Precio: $35,000 </p>
+            <p>Año: 1981 <img src="/images/delorean-logo.png" alt=""  width="200" height="200" align="right"></p>
+            <p>Color: Gris</p>
+        </div>
+        
+        <div class="car">
+            <img src="/images/octo.jpg" alt="Carro 6">
+            <h2> Ecto-1</h2>
+            <p>Precio: $35,000 <img src="/images/casa-fantasmas.png" alt=""  width="200" height="200" align="right"></p>
+            <p>Año: 1059</p>
+            <p>Color: Blanco</p>
+        </div>
+        
+        <!-- Puedes agregar más divs con la clase "car" para más automóviles -->
+    </div>
+</body>
+</html>
